@@ -1,16 +1,19 @@
-# React + Vite
+# Live Search Filter 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple live search filter app build with react. User can type in the search box dan list of major cities in Indonesia. You can get your city if you're lucky.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Real time filters
+- Shows "Search not found." when no results match
+- The list only appears after user starts typing
 
-## React Compiler
+## How to run
+- Clone the rope
+- find the `LiveSearchFilter` folder
+- npm install (install dependencies)
+- npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What i learned
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I just learned about how to manage `useState`, conditional rendering(which i hate the most) using `&&` and ternary operators, and how `onChange` event handler keeps input state in sync with what the user types
